@@ -82,7 +82,13 @@ Enhance mobile responsiveness.
 
 ## OutPut
 
+![Image](https://github.com/user-attachments/assets/50dbb530-58e5-4a16-b701-61e18a4ebad5)
 
+
+![Image](https://github.com/user-attachments/assets/120c9940-5777-477e-b8cb-1a5062b0b37f)
+
+
+![Image](https://github.com/user-attachments/assets/51c603e4-5508-40d2-a838-356b17f2cfa0)
 
 
 
