@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ddcbcb;
+}
+
+.calculator {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 320px;
+    text-align: center;
+}
+
+#display {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    background-color: lightslategrey;
+    border: none;
+    padding: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    background-color: lightslategray;
+    margin-top: 10px;
+}
+
+.scientific {
+    display: none;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    background-color: lightslategray;
+    margin-top: 10px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+button:active {
+    background: #ccc;
+}
+/* Default Light Theme (already your existing styles) */
+body.light-mode {
+  background-color: #ddcbcb;
+  color: #000;
+}
+
+/* Dark Theme */
+body.dark-mode {
+  background-color: #121212;
+  color: #eee;
+}
+
+body.dark-mode .calculator {
+  background-color: #333;
+  color: #eee;
+}
+
+body.dark-mode button {
+  background-color: #555;
+  color: #eee;
+}
+
+body.dark-mode button:active {
+  background-color: #777;
+}
+
+
+
+.history {
+    margin-top: 20px;
+    font-size: 14px;
+}
