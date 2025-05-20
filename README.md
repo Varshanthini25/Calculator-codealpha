@@ -1,6 +1,7 @@
 # Calculator-codealpha
 
 ## Basic Calculator
+## This is a web based advanced calculator built with HTML,CSS and 
 
 ## This is a web-based advanced calculator built with HTML, CSS, and JavaScript. It supports basic arithmetic, scientific functions, percentage calculations, power operations, and maintains a history of recent calculations. The calculator also features keyboard input support and allows switching between light and dark themes.
 
